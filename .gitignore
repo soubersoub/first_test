@@ -2,3 +2,5 @@ logs/
 main.js 
 bin/
 soub1.py
+.DS_Store
+soub2.py
