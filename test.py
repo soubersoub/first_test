@@ -5,6 +5,12 @@ def number(a, b):
     return a + b
 
 
+def divise(a, b):
+    
+    return a / b
+
+
+
 def soustraction(c, d):
     if c > d:
         resultat = c - d
@@ -26,6 +32,8 @@ def main():
     result = soustraction(c,d)
 
     resultat = number(a, b)
+
+    div = divise(a,b)
     
     print(f"La somme de {a} et {b} est : {resultat}")
     print (result)
