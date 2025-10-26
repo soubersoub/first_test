@@ -1,10 +1,13 @@
-import numpy as np 
+def number(a, b):
+    
+    return a + b
 
-def soustraction(c, d):
-    if c > d:
-        resultat = c - d
-        return resultat
-    else:
-        print(f"{d} est supérieur ou égal à {c}, le résultat sera négatif ou nul.")
-        resultat = c - d
-        return resultat
+def main():
+
+    resultat = number(a, b)
+
+
+
+
+if __name__ == "__main__":
+    main()
