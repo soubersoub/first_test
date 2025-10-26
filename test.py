@@ -10,6 +10,15 @@ def divise(a, b):
     return a / b
 
 
+def calcule_age( age ):
+
+    v = 2025 - age 
+    print(f"votre age est {v} ans")
+
+    return v
+    
+
+
 
 def soustraction(c, d):
     if c > d:
@@ -22,7 +31,7 @@ def soustraction(c, d):
 
 
 def main():
-    
+    age = 1996
     a = 5
     b = 3
 
@@ -30,13 +39,15 @@ def main():
     d = 4
 
     result = soustraction(c,d)
-
     resultat = number(a, b)
-
     div = divise(a,b)
+    age_test = calcule_age(age)
+
+
     
     print(f"La somme de {a} et {b} est : {resultat}")
     print (result)
+    print ( age_test)
 
 
 
