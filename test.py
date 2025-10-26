@@ -31,7 +31,7 @@ def soustraction(c, d):
 
 
 def main():
-    age = 1996
+    age1 = 1996
     a = 5
     b = 3
 
