@@ -7,6 +7,11 @@ def prenom(nom):
 
     return b 
 
+def capital(pays):
+    payss = pays
+
+    return payss
+
 
 
 def main():
