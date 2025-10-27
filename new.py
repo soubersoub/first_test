@@ -1,3 +1,5 @@
+import numpy as np 
+
 def number(a, b):
     v= a+ b
     return v 
