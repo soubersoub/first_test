@@ -12,6 +12,11 @@ def capital(pays):
 
     return payss
 
+def calculatrice (num):
+
+    test_calulatrice = num
+
+    return test_calulatrice
 
 
 def main():
