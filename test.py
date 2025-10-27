@@ -4,9 +4,26 @@ def number(a, b):
     
     return a + b
 
+<<<<<<< HEAD
 def produit(a, b):
     
     return a * b
+=======
+
+def divise(a, b):
+    
+    return a / b
+
+
+def calcule_age( age ):
+
+    v = 2025 - age 
+    print(f"votre age est {v} ans")
+
+    return v
+    
+
+>>>>>>> hotfix
 
 
 def soustraction(c, d):
@@ -20,7 +37,11 @@ def soustraction(c, d):
 
 
 def main():
+<<<<<<< HEAD
     
+=======
+    age1 = 1996
+>>>>>>> hotfix
     a = 5
     b = 3
 
@@ -28,6 +49,7 @@ def main():
     d = 4
 
     result = soustraction(c,d)
+<<<<<<< HEAD
 
     resultat = number(a, b)
 
@@ -36,6 +58,17 @@ def main():
     print(f"La somme de {a} et {b} est : {resultat}")
     print (result)
     print (resu)
+=======
+    resultat = number(a, b)
+    div = divise(a,b)
+    age_test = calcule_age(age)
+
+
+    
+    print(f"La somme de {a} et {b} est : {resultat}")
+    print (result)
+    print ( age_test)
+>>>>>>> hotfix
 
 
 
