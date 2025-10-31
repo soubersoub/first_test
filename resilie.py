@@ -9,14 +9,6 @@ model2 = "gpt-oss:20b"
 
 
 
-DB_CONFIG = {
-    "dbname": "edbtest",
-    "user": "gescli_ds",
-    "password": "gescli_ds@20@24*",
-    "host": "192.168.8.50",
-    "port": 5444
-}
-
 
 def calcule_mtn(id_contrat=292418):
     try:
